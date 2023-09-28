@@ -10,7 +10,9 @@
 </template>
 <script>
 
-    import FullFreeBuildEditor from '@blowstack/ckeditor5-full-free-build'
+    // import FullFreeBuildEditor from '@blowstack/ckeditor5-full-free-build'
+        import FullFreeBuildEditor from '@idist/ckeditor5-build'
+
     import CKEditor from '@ckeditor/ckeditor5-vue2'
 
     export default {

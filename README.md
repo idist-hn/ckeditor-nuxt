@@ -9,8 +9,8 @@ npm i nuxt
 
 ## Component integration
 ```
-yarn add @blowstack/ckeditor-nuxt
-npm install --save @blowstack/ckeditor-nuxt
+yarn add @idist/ckeditor-nuxt
+npm install --save @idist/ckeditor-nuxt
 ```
 
 ## List of included plugins

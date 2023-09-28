@@ -1,11 +1,8 @@
 {
-  "name": "@blowstack/ckeditor-nuxt",
-  "version": "0.6.0",
+  "name": "@idist/ckeditor-nuxt",
+  "version": "1.0.1",
   "private": false,
-  "author": {
-    "name": "BlowStack",
-    "email": "piotr.golon@gmail.com"
-  },
+  "author": "Idist-hn <minhtoan96.it@gmail.com>",
   "keywords": [
     "ckeditor5 nuxt",
     "ckeditor 5 nuxt",
@@ -26,7 +23,8 @@
   },
   "dependencies": {
     "@blowstack/ckeditor5-full-free-build": "^27.0.1",
-    "@ckeditor/ckeditor5-vue2": "^1.0.5"
+    "@ckeditor/ckeditor5-vue2": "^1.0.5",
+    "@idist/ckeditor5-build": "^32.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
@@ -64,5 +62,10 @@
     "public/*",
     "*.json",
     "*.js"
-  ]
+  ],
+  "description": "CKEditor 5 editor for nuxt apps. The component includes all free available plugins (except CKFinder, instead simple upload adapter used)",
+  "repository": {
+    "type": "git",
+    "url": "git@idist-hn.github.com:idist-hn/ckeditor-nuxt.git"
+  }
 }
